@@ -8,7 +8,7 @@ import (
 type factoryType string
 
 const (
-	list factoryType = "list"
+	list  factoryType = "list"
 	table factoryType = "table"
 )
 
@@ -64,7 +64,7 @@ type page interface {
 
 type basePage struct {
 	title, author string
-	content []item
+	content       []item
 }
 
 func (p *basePage) Add(item item) {

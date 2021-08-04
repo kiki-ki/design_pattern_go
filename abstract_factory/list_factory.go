@@ -2,7 +2,7 @@ package absf
 
 import "fmt"
 
-type listFactory struct {}
+type listFactory struct{}
 
 func (lf *listFactory) CreateLink(caption, url string) item {
 	ll := new(listLink)

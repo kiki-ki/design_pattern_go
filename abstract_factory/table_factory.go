@@ -2,7 +2,7 @@ package absf
 
 import "fmt"
 
-type tableFactory struct {}
+type tableFactory struct{}
 
 func (tf *tableFactory) CreateLink(caption, url string) item {
 	tl := new(tableLink)
